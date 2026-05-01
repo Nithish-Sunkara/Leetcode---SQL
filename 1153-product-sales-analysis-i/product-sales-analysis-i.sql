@@ -4,4 +4,3 @@ FROM Sales
 LEFT JOIN Product
 ON Product.Product_id = Sales.product_id
 GROUP BY Sales.sale_id, year
-ORDER BY YEAR
